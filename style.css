@@ -1,0 +1,168 @@
+@import url(./reset.css);
+
+
+/* NAVIGATION */
+
+#main-nav ul
+{
+  display: flex;
+    top: 0;
+    
+    background-color: #434040;
+    color: rgb(255, 0, 38);
+    justify-content:space-around;
+    align-items: center;
+    position: sticky;
+    padding: 1.5em;
+    
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+    size: 1em;
+}
+
+
+/* HEADER */
+#main-header{
+    justify-items: center;
+    width: 100%; /* width of container */
+    height: 40vh; /* height of container */
+    background-position: center;
+    background-size: cover;
+    background-image: url("hong-feng-GcgntG01Ibg-unsplash.jpg");
+    margin-bottom: 3em;
+}
+
+
+h1
+{
+    font-family:'Times New Roman', Times, serif;
+    color:rgb(251, 251, 251);
+    font-size:xx-large;
+    font-size: 2em;
+    align-content: center;
+    font-weight: bold;
+    margin:auto;
+    max-width: 600px;
+    padding-top: 9%;
+
+   
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(251, 251, 251);
+    font-size:xx-large;
+    justify-content:center;
+    
+    align-content:center;
+    margin:auto;
+    max-width: 250px;
+
+}
+
+
+/* MAIN CONTENT */
+#main-content
+{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+
+}
+#main-content img
+{
+    width: 150px;
+    float: left;
+   margin-right: 3em;
+    
+}
+ #cite
+{
+    display:block;
+}
+
+/* MAIN */
+main
+{
+    width: 60%;
+    padding-left: 0px;
+    margin-left: 1em;
+    font-style:normal;
+    margin-right: 3em;
+    
+}
+
+/* ASIDE */
+aside 
+{
+   
+    width: 35%;
+ 
+
+    font-style:normal;
+    
+   background-color: lightgray;
+   margin-bottom: 1em;
+
+}
+
+
+
+aside li
+{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    justify-content: space-between;
+}
+
+aside li:nth-of-type(odd)
+{
+    background-color: #fff;
+}
+
+aside li:nth-of-type(even)
+{
+    background-color: lightgray;
+}
+
+aside h2
+{
+    color: black;
+    background-color: lightgray;
+    font-size: 1.2em;
+    margin: 2em;
+    text-align: center;
+}
+/* FOOTER */
+footer
+{
+    background-color: rgb(50, 49, 49);
+}
+
+footer p
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    font-size: medium;
+}
+#social-nav ul 
+{
+    gap: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    
+}
+
+#social-nav img
+{
+    width: 50px;
+
+}
+
